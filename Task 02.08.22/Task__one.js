@@ -7,7 +7,7 @@ totalNamber = parseInt(prompt("Введите число от 100 до 999: "));
 thierdNumber = totalNamber % 10;
 secondNamber = ((totalNamber - thierdNumber) / 10) % 10;
 firstNamber = ((totalNamber - thierdNumber - secondNamber * 10) / 100) % 10;
-if (firstNamber == thierdNumber) {
+if (firstNamber == thierdNumber && firstNamber == secondNamber && secondNamber == thierdNumber) {
   alert('В числе все одинаковые цифры');
 } else if (firstNamber == secondNamber || firstNamber == thierdNumber || secondNamber == thierdNumber ) {
   alert('В числе есть одинаковые цифры');

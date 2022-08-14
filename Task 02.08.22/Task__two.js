@@ -1,7 +1,8 @@
 // 2) Определить, есть ли заданное шестизначное число зеркальным? (123321, 147741)
 
 
-let totalNumaber,firstNumber,secondNamber,thierdNumber,fourNumber,fiveNumber,sixNumber;
+{
+    let totalNumaber,firstNumber,secondNamber,thierdNumber,fourNumber,fiveNumber,sixNumber;
 totalNumaber = parseInt(prompt("Введите шестизначное число"));
 firstNumber = (totalNumaber % 10).toFixed();
 secondNamber = ((totalNumaber-firstNumber)/10 % 10).toFixed();
@@ -15,4 +16,5 @@ if (firstNumber==sixNumber && secondNamber==fiveNumber && thierdNumber==fourNumb
 }
 else {
     alert("error")
+}
 }
