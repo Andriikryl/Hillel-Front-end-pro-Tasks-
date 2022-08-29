@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+}
+
+.main {
+  background-color: blueviolet;
+  min-height: 100vh;
+}
+.main .three__task {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.main .three__task h2 {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.main .task__four {
+  padding-bottom: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .task__four h2 {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.main .task__four .get-image {
+  max-width: 200px;
+  padding: 15px 30px 15px 30px;
+  background-color: aquamarine;
+  margin-bottom: 40px;
+}
+.main .task__four .box-img {
+  max-width: 400px;
+  max-height: 300px;
+}
+.main .task__four .box-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.main .three__task {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.main .second__task {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .second__task h1 {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.main .second__task .btn__box {
+  padding-top: 10px;
+}
+.main .second__task .btn__box .first-btn {
+  padding: 15px 30px 15px 30px;
+  background-color: red;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  margin-right: 350px;
+}
+.main .second__task .btn__box .second-btn {
+  padding: 15px 30px 15px 30px;
+  background-color: blue;
+  border: none;
+  border-radius: 40px;
+  color: white;
+}
+.main .first__task {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .first__task .card {
+  max-width: 400px;
+}
+.main .first__task .card .card-text {
+  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
+}
+.main .first__task .card .card-btn {
+  padding: 15px 30px 15px 30px;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.text-color {
+  color: hsl(23deg, 12%, 36%);
+}/*# sourceMappingURL=style.css.map */

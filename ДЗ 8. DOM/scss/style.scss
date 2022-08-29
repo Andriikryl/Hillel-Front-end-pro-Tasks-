@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    display: block;
+}
+// Task one
+
+.main{
+    background-color: blueviolet;
+    min-height: 100vh;
+    .three__task{
+        h2{
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+        }
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .task__four{
+        padding-bottom: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+        }
+        .get-image{
+            max-width: 200px;
+            padding: 15px 30px 15px 30px;
+            background-color: aquamarine;
+            margin-bottom: 40px;
+        }
+        .box-img{
+            max-width: 400px;
+            max-height: 300px;
+            img{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .three__task{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+  .second__task{
+    h1{
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .btn__box{
+        padding-top: 10px;
+    
+        .first-btn{
+            padding: 15px 30px 15px 30px;
+            background-color: red;
+            border: none;
+            border-radius: 40px;
+            color: white;
+            margin-right: 350px;
+        }
+        .second-btn{
+            padding: 15px 30px 15px 30px;
+            background-color: blue;
+            border: none;
+            border-radius: 40px;
+            color: white;
+        }
+    }
+  }
+  .first__task{
+        padding-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    .card{
+        max-width: 400px;
+        .card-text{
+            font-size: 1.6rem;
+            padding-bottom: .5rem;
+        }
+        .card-btn{
+            padding: 15px 30px 15px 30px;
+            background-color: aqua;
+            cursor: pointer;
+            border-radius: 30px;
+            border: none;
+            font-size: 20px;
+            color: white;
+        }
+    }
+}
+
+
+}
+.text-color{
+    color: hsl(23, 12, 72 /2);
+}
+
