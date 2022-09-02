@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper .content-img {
+  width: 400px;
+  height: 300px;
+}
+.wrapper .content-img img {
+  width: 100%;
+  display: block;
+}
+.wrapper .btn {
+  position: relative;
+  bottom: 50px;
+  max-width: 100px;
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 20px 30px;
+}/*# sourceMappingURL=style.css.map */
