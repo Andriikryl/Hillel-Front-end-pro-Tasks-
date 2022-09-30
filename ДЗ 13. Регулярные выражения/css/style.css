@@ -1,0 +1,92 @@
+.error {
+    color: tomato;
+}
+button{
+    color: transparent;
+    border: none;
+}
+.success {
+    color: green;
+}
+
+.form__box{
+    display: flex;
+    justify-content: center;
+    padding-block-start: 100px;
+}
+
+.form{
+    background-color: #607262;
+    padding: 50px;
+    border-radius: 20px 10px;
+}
+
+.input{
+    background-color: #e5b9b0;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 20px 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.info{
+    color: #f4e3d1;
+    text-transform: uppercase;
+}
+
+.button {
+    background: #e5b9b0;
+    height: 80px;
+    width: 200px;
+    text-align: center;
+    /* position: absolute; */
+    top: 50%;
+    transform: translateY(10%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 20px 10px;
+  }
+  
+  .text {
+    font: bold 1.25rem/1 poppins;
+    color: #f4e3d1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-52%);
+    left: 0;
+    right: 0;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    height: 10px;
+    width: 0;
+    right: 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 200px;
+    transform: translateY(-60%) translateX(-50%);
+    background: lighten(#fef335
+    , 15%);
+  }
+  
+  svg {
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    right: 0;
+  }
+  
+  .check {
+    fill: none;
+    stroke: #e5b9b0;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
