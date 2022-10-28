@@ -1,0 +1,32 @@
+
+body {
+  height: 100%;
+  background-color: khaki;
+}
+
+h1{
+  font-size: 50px;
+  padding-block-end: 10px;
+}
+
+p{
+  font-size: 20px;
+}
+
+
+
+.wether__box{
+  padding: 50px;
+  background-color: rgba(0, 255, 0, 0.2);
+  backdrop-filter: blur(5px);
+  mix-blend-mode: color-burn;
+  width: max-content;
+  color: black;
+  border-radius: 10%;
+  margin: 20% 40%;
+}
+
+.wether__box > *+*{
+  padding-block-end: 10px;
+}
+
