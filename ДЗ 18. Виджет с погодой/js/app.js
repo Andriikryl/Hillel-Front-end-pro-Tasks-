@@ -24,11 +24,12 @@ const wetherList = document.getElementById("wether-list");
 
 fetch(url)
   .then((response) => response.json())
-  .then(({ main, wind, weather }) => {
+  .then(({ main, wind, weather,  }) => {
     
     wetherList.innerHTML = `
     <h1> ${main.temp}°C</h1>
-    <p>Wind: ${wind.speed} km/h ${wind.deg}°</p> 
+    <p>Wind: ${wind.speed} km/h</p> 
+    <p>Direction in degrees ${wind.deg}°</p>
        <p>Pressure: ${main.pressure} hPa</p>
     <p>Humidity: ${main.humidity} %</p> `;
     
