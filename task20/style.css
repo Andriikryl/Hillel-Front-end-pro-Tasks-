@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.text{
+    font-size: 40px;
+    padding-block-end: 30px;
+}
+
+.select{
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+.container{
+    display: flex;
+    gap: 30px;
+    background-color: tomato;
+    padding: 30px;
+    border-radius: 20px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin: 100px;
+}
+
+.box__img{
+    display: flex;
+    background-color: bisque;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.hidden {
+    display: none;
+  }
