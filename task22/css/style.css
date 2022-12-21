@@ -1,0 +1,59 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px 35px;
+    color: tomato;
+    background-color: #000;
+}
+.post {
+    font-size: 18px;
+    font-weight: 500;
+}
+._error {
+    color: red;
+}
+.input {
+    min-width: 226px;
+    min-height: 35px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 0px solid #fff;
+    outline: none;
+    color: rgb(104,105,142);
+    margin-bottom: 20px;
+}
+.button-id {
+    padding: 20px;
+    min-width: 150px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color:brown;
+    cursor: pointer;
+}
+.user-email {
+    color: rgb(104,105,142);
+}
+.comments-title {
+    font-size: 24px;
+}
+.post-title {
+    font-size: 30px;
+}
+.main-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
